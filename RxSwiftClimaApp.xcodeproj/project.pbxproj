@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DE074F25747EF6002A262D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE074E25747EF6002A262D /* AppDelegate.swift */; };
+		44DE075125747EF6002A262D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE075025747EF6002A262D /* SceneDelegate.swift */; };
+		44DE075325747EF6002A262D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE075225747EF6002A262D /* ViewController.swift */; };
+		44DE075625747EF6002A262D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DE075425747EF6002A262D /* Main.storyboard */; };
+		44DE075825747EFB002A262D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DE075725747EFB002A262D /* Assets.xcassets */; };
+		44DE075B25747EFB002A262D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DE075925747EFB002A262D /* LaunchScreen.storyboard */; };
+		44DE076625747EFB002A262D /* RxSwiftClimaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE076525747EFB002A262D /* RxSwiftClimaAppTests.swift */; };
+		44DE077125747EFC002A262D /* RxSwiftClimaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE077025747EFC002A262D /* RxSwiftClimaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44DE076225747EFB002A262D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44DE074325747EF6002A262D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44DE074A25747EF6002A262D;
+			remoteInfo = RxSwiftClimaApp;
+		};
+		44DE076D25747EFC002A262D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44DE074325747EF6002A262D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44DE074A25747EF6002A262D;
+			remoteInfo = RxSwiftClimaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44DE074B25747EF6002A262D /* RxSwiftClimaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftClimaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE074E25747EF6002A262D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44DE075025747EF6002A262D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44DE075225747EF6002A262D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44DE075525747EF6002A262D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44DE075725747EFB002A262D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44DE075A25747EFB002A262D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44DE075C25747EFB002A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DE076125747EFB002A262D /* RxSwiftClimaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftClimaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE076525747EFB002A262D /* RxSwiftClimaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftClimaAppTests.swift; sourceTree = "<group>"; };
+		44DE076725747EFB002A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DE076C25747EFC002A262D /* RxSwiftClimaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftClimaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE077025747EFC002A262D /* RxSwiftClimaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftClimaAppUITests.swift; sourceTree = "<group>"; };
+		44DE077225747EFC002A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44DE074825747EF6002A262D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE075E25747EFB002A262D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE076925747EFC002A262D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44DE074225747EF6002A262D = {
+			isa = PBXGroup;
+			children = (
+				44DE074D25747EF6002A262D /* RxSwiftClimaApp */,
+				44DE076425747EFB002A262D /* RxSwiftClimaAppTests */,
+				44DE076F25747EFC002A262D /* RxSwiftClimaAppUITests */,
+				44DE074C25747EF6002A262D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44DE074C25747EF6002A262D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44DE074B25747EF6002A262D /* RxSwiftClimaApp.app */,
+				44DE076125747EFB002A262D /* RxSwiftClimaAppTests.xctest */,
+				44DE076C25747EFC002A262D /* RxSwiftClimaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44DE074D25747EF6002A262D /* RxSwiftClimaApp */ = {
+			isa = PBXGroup;
+			children = (
+				44DE074E25747EF6002A262D /* AppDelegate.swift */,
+				44DE075025747EF6002A262D /* SceneDelegate.swift */,
+				44DE075225747EF6002A262D /* ViewController.swift */,
+				44DE075425747EF6002A262D /* Main.storyboard */,
+				44DE075725747EFB002A262D /* Assets.xcassets */,
+				44DE075925747EFB002A262D /* LaunchScreen.storyboard */,
+				44DE075C25747EFB002A262D /* Info.plist */,
+			);
+			path = RxSwiftClimaApp;
+			sourceTree = "<group>";
+		};
+		44DE076425747EFB002A262D /* RxSwiftClimaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				44DE076525747EFB002A262D /* RxSwiftClimaAppTests.swift */,
+				44DE076725747EFB002A262D /* Info.plist */,
+			);
+			path = RxSwiftClimaAppTests;
+			sourceTree = "<group>";
+		};
+		44DE076F25747EFC002A262D /* RxSwiftClimaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44DE077025747EFC002A262D /* RxSwiftClimaAppUITests.swift */,
+				44DE077225747EFC002A262D /* Info.plist */,
+			);
+			path = RxSwiftClimaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44DE074A25747EF6002A262D /* RxSwiftClimaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DE077525747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaApp" */;
+			buildPhases = (
+				44DE074725747EF6002A262D /* Sources */,
+				44DE074825747EF6002A262D /* Frameworks */,
+				44DE074925747EF6002A262D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwiftClimaApp;
+			productName = RxSwiftClimaApp;
+			productReference = 44DE074B25747EF6002A262D /* RxSwiftClimaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44DE076025747EFB002A262D /* RxSwiftClimaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DE077825747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaAppTests" */;
+			buildPhases = (
+				44DE075D25747EFB002A262D /* Sources */,
+				44DE075E25747EFB002A262D /* Frameworks */,
+				44DE075F25747EFB002A262D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DE076325747EFB002A262D /* PBXTargetDependency */,
+			);
+			name = RxSwiftClimaAppTests;
+			productName = RxSwiftClimaAppTests;
+			productReference = 44DE076125747EFB002A262D /* RxSwiftClimaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44DE076B25747EFC002A262D /* RxSwiftClimaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DE077B25747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaAppUITests" */;
+			buildPhases = (
+				44DE076825747EFC002A262D /* Sources */,
+				44DE076925747EFC002A262D /* Frameworks */,
+				44DE076A25747EFC002A262D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DE076E25747EFC002A262D /* PBXTargetDependency */,
+			);
+			name = RxSwiftClimaAppUITests;
+			productName = RxSwiftClimaAppUITests;
+			productReference = 44DE076C25747EFC002A262D /* RxSwiftClimaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44DE074325747EF6002A262D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					44DE074A25747EF6002A262D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					44DE076025747EFB002A262D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 44DE074A25747EF6002A262D;
+					};
+					44DE076B25747EFC002A262D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 44DE074A25747EF6002A262D;
+					};
+				};
+			};
+			buildConfigurationList = 44DE074625747EF6002A262D /* Build configuration list for PBXProject "RxSwiftClimaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44DE074225747EF6002A262D;
+			productRefGroup = 44DE074C25747EF6002A262D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44DE074A25747EF6002A262D /* RxSwiftClimaApp */,
+				44DE076025747EFB002A262D /* RxSwiftClimaAppTests */,
+				44DE076B25747EFC002A262D /* RxSwiftClimaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44DE074925747EF6002A262D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE075B25747EFB002A262D /* LaunchScreen.storyboard in Resources */,
+				44DE075825747EFB002A262D /* Assets.xcassets in Resources */,
+				44DE075625747EF6002A262D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE075F25747EFB002A262D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE076A25747EFC002A262D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DE074725747EF6002A262D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE075325747EF6002A262D /* ViewController.swift in Sources */,
+				44DE074F25747EF6002A262D /* AppDelegate.swift in Sources */,
+				44DE075125747EF6002A262D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE075D25747EFB002A262D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE076625747EFB002A262D /* RxSwiftClimaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DE076825747EFC002A262D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE077125747EFC002A262D /* RxSwiftClimaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44DE076325747EFB002A262D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44DE074A25747EF6002A262D /* RxSwiftClimaApp */;
+			targetProxy = 44DE076225747EFB002A262D /* PBXContainerItemProxy */;
+		};
+		44DE076E25747EFC002A262D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44DE074A25747EF6002A262D /* RxSwiftClimaApp */;
+			targetProxy = 44DE076D25747EFC002A262D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44DE075425747EF6002A262D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44DE075525747EF6002A262D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44DE075925747EFB002A262D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44DE075A25747EFB002A262D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44DE077325747EFC002A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44DE077425747EFC002A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44DE077625747EFC002A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CA72R6B357;
+				INFOPLIST_FILE = RxSwiftClimaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eugene-uskov.RxSwiftClimaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44DE077725747EFC002A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CA72R6B357;
+				INFOPLIST_FILE = RxSwiftClimaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eugene-uskov.RxSwiftClimaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44DE077925747EFC002A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CA72R6B357;
+				INFOPLIST_FILE = RxSwiftClimaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eugene-uskov.RxSwiftClimaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftClimaApp.app/RxSwiftClimaApp";
+			};
+			name = Debug;
+		};
+		44DE077A25747EFC002A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CA72R6B357;
+				INFOPLIST_FILE = RxSwiftClimaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eugene-uskov.RxSwiftClimaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftClimaApp.app/RxSwiftClimaApp";
+			};
+			name = Release;
+		};
+		44DE077C25747EFC002A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CA72R6B357;
+				INFOPLIST_FILE = RxSwiftClimaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eugene-uskov.RxSwiftClimaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxSwiftClimaApp;
+			};
+			name = Debug;
+		};
+		44DE077D25747EFC002A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CA72R6B357;
+				INFOPLIST_FILE = RxSwiftClimaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eugene-uskov.RxSwiftClimaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxSwiftClimaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44DE074625747EF6002A262D /* Build configuration list for PBXProject "RxSwiftClimaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE077325747EFC002A262D /* Debug */,
+				44DE077425747EFC002A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DE077525747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE077625747EFC002A262D /* Debug */,
+				44DE077725747EFC002A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DE077825747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE077925747EFC002A262D /* Debug */,
+				44DE077A25747EFC002A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DE077B25747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE077C25747EFC002A262D /* Debug */,
+				44DE077D25747EFC002A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44DE074325747EF6002A262D /* Project object */;
+}
