@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        
         self.cityNameTextField.rx.controlEvent(.editingDidEndOnExit)
             .asObservable()
             .map{ self.cityNameTextField.text }
@@ -73,9 +74,18 @@ class ViewController: UIViewController {
     private func fetchWeather(by city: String) {
         guard let url = URL.urlForWeatherAPI(city: city) else {return}
         let resource = Resource<WeatherResult>(url: url)
+        
         let search = URLRequest.load(resource: resource)
-            .observeOn(MainScheduler.instance)// execution on main Queue
-            .asDriver(onErrorJustReturn: WeatherResult.empty)
+                   .observeOn(MainScheduler.instance)// execution on main Queue
+            .retry(3)
+            .catchError { error in
+                print(error)
+                return Observable.of(WeatherResult.empty)
+            }.asDriver(onErrorJustReturn: WeatherResult.empty)
+        
+//        let search = URLRequest.load(resource: resource)
+//            .observeOn(MainScheduler.instance)// execution on main Queue
+//            .asDriver(onErrorJustReturn: WeatherResult.empty)
        
         search.map {
             print($0)
