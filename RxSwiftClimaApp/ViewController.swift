@@ -75,8 +75,8 @@ class ViewController: UIViewController {
         let resource = Resource<WeatherResult>(url: url)
         let search = URLRequest.load(resource: resource)
             .observeOn(MainScheduler.instance)// execution on main Queue
-            .catchErrorJustReturn(WeatherResult.empty)
-            
+            .asDriver(onErrorJustReturn: WeatherResult.empty)
+       
         search.map {
             print($0)
             if let temp = $0.main.temp {
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
             }
             return "No data"
         }
-            .bind(to: self.tempLabel.rx.text)
+            .drive(self.tempLabel.rx.text)
             .disposed(by: disposeBag)
         
         search.map {
@@ -93,7 +93,7 @@ class ViewController: UIViewController {
             }
             return "No data"
         }
-            .bind(to: self.humidityLabel.rx.text)
+            .drive(self.humidityLabel.rx.text)
             .disposed(by: disposeBag)
         
         search.map {
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
             }
             return "No data"
         }
-            .bind(to: self.conditionLabel.rx.text)
+            .drive(self.conditionLabel.rx.text)
             .disposed(by: disposeBag)
         
 //            .subscribe(
