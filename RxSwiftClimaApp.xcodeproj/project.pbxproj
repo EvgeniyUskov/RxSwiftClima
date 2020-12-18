@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094E89BD18C37C0C8DE78F07 /* Pods_RxSwiftClimaApp_RxSwiftClimaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D75BF82D7E204289AD4D6CE /* Pods_RxSwiftClimaApp_RxSwiftClimaAppUITests.framework */; };
+		442453DF257481D900B08BFF /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442453DE257481D900B08BFF /* WeatherResult.swift */; };
+		44A2A8D2257F91FE00B5BEE4 /* URLRequest + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2A8D1257F91FE00B5BEE4 /* URLRequest + Extension.swift */; };
+		44DBDB0B2583605700B7098B /* URL + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBDB0A2583605700B7098B /* URL + Extension.swift */; };
 		44DE074F25747EF6002A262D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE074E25747EF6002A262D /* AppDelegate.swift */; };
 		44DE075125747EF6002A262D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE075025747EF6002A262D /* SceneDelegate.swift */; };
 		44DE075325747EF6002A262D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE075225747EF6002A262D /* ViewController.swift */; };
@@ -15,6 +19,8 @@
 		44DE075B25747EFB002A262D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DE075925747EFB002A262D /* LaunchScreen.storyboard */; };
 		44DE076625747EFB002A262D /* RxSwiftClimaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE076525747EFB002A262D /* RxSwiftClimaAppTests.swift */; };
 		44DE077125747EFC002A262D /* RxSwiftClimaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE077025747EFC002A262D /* RxSwiftClimaAppUITests.swift */; };
+		B8D90AE3D294D080126D7DD4 /* Pods_RxSwiftClimaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A829DC7CB2FD98FA0D1B39 /* Pods_RxSwiftClimaApp.framework */; };
+		D2C0A9D57237D7979AFEE5E0 /* Pods_RxSwiftClimaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95FB972621776F6F99CB3DC /* Pods_RxSwiftClimaAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D475C03424A350F97AD58B6 /* Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D75BF82D7E204289AD4D6CE /* Pods_RxSwiftClimaApp_RxSwiftClimaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftClimaApp_RxSwiftClimaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F89CAD9B94620E287C77523 /* Pods-RxSwiftClimaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftClimaApp.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftClimaApp/Pods-RxSwiftClimaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		442453DE257481D900B08BFF /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
+		44A2A8D1257F91FE00B5BEE4 /* URLRequest + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest + Extension.swift"; sourceTree = "<group>"; };
+		44DBDB0A2583605700B7098B /* URL + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + Extension.swift"; sourceTree = "<group>"; };
 		44DE074B25747EF6002A262D /* RxSwiftClimaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftClimaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DE074E25747EF6002A262D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DE075025747EF6002A262D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		44DE076C25747EFC002A262D /* RxSwiftClimaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftClimaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DE077025747EFC002A262D /* RxSwiftClimaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftClimaAppUITests.swift; sourceTree = "<group>"; };
 		44DE077225747EFC002A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC6D7B1EC63955BAD587464 /* Pods-RxSwiftClimaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftClimaAppTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftClimaAppTests/Pods-RxSwiftClimaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5460A35465D67A85180CD837 /* Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99A829DC7CB2FD98FA0D1B39 /* Pods_RxSwiftClimaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftClimaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AD5911DB4C51B1F5A7B5C9 /* Pods-RxSwiftClimaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftClimaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftClimaAppTests/Pods-RxSwiftClimaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B95FB972621776F6F99CB3DC /* Pods_RxSwiftClimaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftClimaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB59A3E157DF70E32378C5D9 /* Pods-RxSwiftClimaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftClimaApp.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftClimaApp/Pods-RxSwiftClimaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D90AE3D294D080126D7DD4 /* Pods_RxSwiftClimaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C0A9D57237D7979AFEE5E0 /* Pods_RxSwiftClimaAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094E89BD18C37C0C8DE78F07 /* Pods_RxSwiftClimaApp_RxSwiftClimaAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442453E32574829100B08BFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				442453DE257481D900B08BFF /* WeatherResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		44DE074225747EF6002A262D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				44DE076425747EFB002A262D /* RxSwiftClimaAppTests */,
 				44DE076F25747EFC002A262D /* RxSwiftClimaAppUITests */,
 				44DE074C25747EF6002A262D /* Products */,
+				CC60E70F82F1F64CCA7AFB58 /* Pods */,
+				CC9BE068969333184A7C0EDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +132,10 @@
 			children = (
 				44DE074E25747EF6002A262D /* AppDelegate.swift */,
 				44DE075025747EF6002A262D /* SceneDelegate.swift */,
+				44A2A8D1257F91FE00B5BEE4 /* URLRequest + Extension.swift */,
+				44DBDB0A2583605700B7098B /* URL + Extension.swift */,
 				44DE075225747EF6002A262D /* ViewController.swift */,
+				442453E32574829100B08BFF /* Model */,
 				44DE075425747EF6002A262D /* Main.storyboard */,
 				44DE075725747EFB002A262D /* Assets.xcassets */,
 				44DE075925747EFB002A262D /* LaunchScreen.storyboard */,
@@ -128,6 +162,29 @@
 			path = RxSwiftClimaAppUITests;
 			sourceTree = "<group>";
 		};
+		CC60E70F82F1F64CCA7AFB58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F89CAD9B94620E287C77523 /* Pods-RxSwiftClimaApp.debug.xcconfig */,
+				EB59A3E157DF70E32378C5D9 /* Pods-RxSwiftClimaApp.release.xcconfig */,
+				1D475C03424A350F97AD58B6 /* Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.debug.xcconfig */,
+				5460A35465D67A85180CD837 /* Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.release.xcconfig */,
+				A5AD5911DB4C51B1F5A7B5C9 /* Pods-RxSwiftClimaAppTests.debug.xcconfig */,
+				4AC6D7B1EC63955BAD587464 /* Pods-RxSwiftClimaAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC9BE068969333184A7C0EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99A829DC7CB2FD98FA0D1B39 /* Pods_RxSwiftClimaApp.framework */,
+				1D75BF82D7E204289AD4D6CE /* Pods_RxSwiftClimaApp_RxSwiftClimaAppUITests.framework */,
+				B95FB972621776F6F99CB3DC /* Pods_RxSwiftClimaAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DE077525747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaApp" */;
 			buildPhases = (
+				8B6D84D5C1B14A725FDB3FC9 /* [CP] Check Pods Manifest.lock */,
 				44DE074725747EF6002A262D /* Sources */,
 				44DE074825747EF6002A262D /* Frameworks */,
 				44DE074925747EF6002A262D /* Resources */,
+				579CE0DC46091652BDCDF86C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DE077825747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaAppTests" */;
 			buildPhases = (
+				5BF3CC02C1AFAC3904E6855B /* [CP] Check Pods Manifest.lock */,
 				44DE075D25747EFB002A262D /* Sources */,
 				44DE075E25747EFB002A262D /* Frameworks */,
 				44DE075F25747EFB002A262D /* Resources */,
@@ -170,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DE077B25747EFC002A262D /* Build configuration list for PBXNativeTarget "RxSwiftClimaAppUITests" */;
 			buildPhases = (
+				89F5E4EF212398645C6CC18D /* [CP] Check Pods Manifest.lock */,
 				44DE076825747EFC002A262D /* Sources */,
 				44DE076925747EFC002A262D /* Frameworks */,
 				44DE076A25747EFC002A262D /* Resources */,
+				026B461F5FA0AFF00C78D1D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +315,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		026B461F5FA0AFF00C78D1D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579CE0DC46091652BDCDF86C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftClimaApp/Pods-RxSwiftClimaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftClimaApp/Pods-RxSwiftClimaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftClimaApp/Pods-RxSwiftClimaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF3CC02C1AFAC3904E6855B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftClimaAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F5E4EF212398645C6CC18D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6D84D5C1B14A725FDB3FC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftClimaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44DE074725747EF6002A262D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44DE075325747EF6002A262D /* ViewController.swift in Sources */,
+				442453DF257481D900B08BFF /* WeatherResult.swift in Sources */,
+				44A2A8D2257F91FE00B5BEE4 /* URLRequest + Extension.swift in Sources */,
 				44DE074F25747EF6002A262D /* AppDelegate.swift in Sources */,
 				44DE075125747EF6002A262D /* SceneDelegate.swift in Sources */,
+				44DBDB0B2583605700B7098B /* URL + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +601,7 @@
 		};
 		44DE077625747EFC002A262D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F89CAD9B94620E287C77523 /* Pods-RxSwiftClimaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +621,7 @@
 		};
 		44DE077725747EFC002A262D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB59A3E157DF70E32378C5D9 /* Pods-RxSwiftClimaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +641,7 @@
 		};
 		44DE077925747EFC002A262D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AD5911DB4C51B1F5A7B5C9 /* Pods-RxSwiftClimaAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +664,7 @@
 		};
 		44DE077A25747EFC002A262D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC6D7B1EC63955BAD587464 /* Pods-RxSwiftClimaAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +687,7 @@
 		};
 		44DE077C25747EFC002A262D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D475C03424A350F97AD58B6 /* Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +708,7 @@
 		};
 		44DE077D25747EFC002A262D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5460A35465D67A85180CD837 /* Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
