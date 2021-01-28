@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftClimaApp_RxSwiftClimaAppUITests {
+  umbrella header "Pods-RxSwiftClimaApp-RxSwiftClimaAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
